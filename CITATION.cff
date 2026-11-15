@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this data, cite it as below and keep the snapshot id."
+type: dataset
+title: "PepBank open data"
+authors:
+  - name: "PepBank"
+    website: "https://pepbank.io"
+abstract: "PepBank is a free peptide evidence database. This dataset holds peptide records, stored publication metadata, clinical trial records and study results, each with the exact quote from its source. Data is CC BY 4.0. Values from ChEMBL are in a separate folder under CC BY-SA 3.0."
+url: "https://pepbank.io/open-data"
+repository: "https://github.com/pepbank/pepbank-data"
+license: CC-BY-4.0
+# release:begin cff-release
+version: "2026-11-15"
+date-released: "2026-11-15"
+doi: "10.5281/zenodo.24249757"
+# release:end cff-release
+keywords:
+  - peptides
+  - evidence
+  - open data
+  - biomedical literature
+  - clinical trials

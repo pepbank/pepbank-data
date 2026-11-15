@@ -1,0 +1,45 @@
+name: Data error
+description: Report a wrong value in the PepBank data.
+title: "Data error: "
+labels: ["data-error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the report. Check [docs/KNOWN-ISSUES.md](https://github.com/pepbank/pepbank-data/blob/main/docs/KNOWN-ISSUES.md) first.
+        Do not report a security or privacy problem here. Use <https://pepbank.io/contact>.
+  - type: input
+    id: record
+    attributes:
+      label: Record id or page URL
+      description: "For example FND-1234567801, PUB-12345678, PEP-000123, TRL-NCT01234567, or a pepbank.io page URL."
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field name
+      description: "The field that is wrong, for example evidence_detail.sample_size."
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Say what the data shows and what it should show.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: The source text that shows it
+      description: Paste the sentence from the source, or give a link to it.
+    validations:
+      required: true
+  - type: checkboxes
+    id: searched
+    attributes:
+      label: Before you send
+      options:
+        - label: I searched open issues.
+          required: false

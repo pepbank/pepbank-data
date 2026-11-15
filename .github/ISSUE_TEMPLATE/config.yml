@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and privacy
+    url: https://pepbank.io/contact
+    about: Ask a question, or report a security or privacy problem. Do not use a public issue for these.
+  - name: API and MCP server
+    url: https://pepbank.io/developers
+    about: Documentation for the REST API and the MCP server.

@@ -1,0 +1,43 @@
+{
+  "upload_type": "dataset",
+  "title": "PepBank open data",
+  "creators": [
+    {
+      "name": "PepBank",
+      "affiliation": "Mira Labs LLC"
+    }
+  ],
+  "description": "<p>PepBank (https://pepbank.io) is a free peptide evidence database. This dataset holds its open records: peptides, publication metadata, clinical trials and study results. Each study result keeps the exact quote from its source. An AI model writes each result from the abstract, and software and a second AI model check it (method: https://pepbank.io/methods).</p><p>This version is at data version 310721. It covers 147 peptides, 6 blends and 13 other compounds, 97,577 study results from 17,383 studies, and 8,473 clinical trials. The files are JSONL, a SQLite database, a manifest and SHA-256 checksums.</p><p>The data is under CC BY 4.0. Values from ChEMBL are in a separate folder under CC BY-SA 3.0. Abstracts and quotes keep the license of their article. This is not medical advice.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "peptides",
+    "evidence",
+    "open data",
+    "biomedical literature",
+    "clinical trials"
+  ],
+  "version": "2026-11-15",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://pepbank.io",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://pepbank.io/open-data",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://github.com/pepbank/pepbank-data/releases/tag/2026-11-15",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset"
+    }
+  ],
+  "publication_date": "2026-11-15",
+  "prereserve_doi": {
+    "doi": "10.5281/zenodo.24249757"
+  }
+}
